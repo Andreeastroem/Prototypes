@@ -26,7 +26,8 @@ $RECYCLE.BIN/
 .LSOverride
 
 # Icon must ends with two \r.
-Icon
+Icon
+
 
 # Thumbnails
 ._*
@@ -34,3 +35,24 @@ Icon
 # Files that might appear on external disk
 .Spotlight-V100
 .Trashes
+
+#
+# Visual studio
+#
+
+# ignore directories
+build/
+Dependencies/
+bin/
+ipch/
+
+# ignore extensions
+*.exe
+*.lib
+*.dll
+*.idb
+*.so
+*.sdf
+
+# exceptions
+!external/**/*
