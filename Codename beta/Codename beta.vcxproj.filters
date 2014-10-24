@@ -1,0 +1,257 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Engine">
+      <UniqueIdentifier>{1fd32139-a1ca-4c9e-b381-b4d44b380b35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Component system">
+      <UniqueIdentifier>{03de5cad-94c2-4ae2-818b-d416617f1ebf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\System">
+      <UniqueIdentifier>{2486685a-05e6-453f-8661-67d33ac02cdb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Component system\Container">
+      <UniqueIdentifier>{a8fa5406-3857-4798-aabe-e7c31b15265f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Gameplay">
+      <UniqueIdentifier>{d1cf2f80-aa33-4223-b9dc-163834f0f3ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine">
+      <UniqueIdentifier>{2db80563-64e7-4e6a-82b9-e5affdb20a65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Gameplay">
+      <UniqueIdentifier>{ea2ca2fe-4b8a-40ce-8156-eb2d981d013d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Component system">
+      <UniqueIdentifier>{8b50340c-7d89-4673-bd20-9b9f1aa19334}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\System">
+      <UniqueIdentifier>{7766b589-f2a8-4945-86e0-696e9a754f7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Component system\Container">
+      <UniqueIdentifier>{21c1abb0-1e1f-4df7-bcc5-a088a0ac9507}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Entry point">
+      <UniqueIdentifier>{124e9b11-017d-40b6-878b-1b82fff633fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\System\Commands">
+      <UniqueIdentifier>{6ae4dc1f-5fc3-42da-a362-060fffcbbb76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\System\Commands">
+      <UniqueIdentifier>{9881364d-16ac-47da-97ee-b15b00db9a83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\System\Parsing">
+      <UniqueIdentifier>{81b26fb5-ba28-4577-b5d7-67ffcd6e7737}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\System\Parsing">
+      <UniqueIdentifier>{7fa5c351-327e-4131-b33a-a22db3b85f6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\System\Debug">
+      <UniqueIdentifier>{e1ff8067-1fa1-4e6f-874b-7afb47877a9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\System\Debug">
+      <UniqueIdentifier>{1c092cde-0fe5-40b5-9e78-9e0bfcbbdb91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Draw Manager">
+      <UniqueIdentifier>{11ceeb03-59b6-4232-9066-573a627c25a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Draw Manager">
+      <UniqueIdentifier>{fd3d77a4-aca5-4f28-a427-efa81ccf1c3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\System\Input">
+      <UniqueIdentifier>{41f0cc86-9858-4bc4-b1a1-d684e56443ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\System\Input">
+      <UniqueIdentifier>{6a124389-56ac-496b-b0b2-77eea4eefb71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Component system\Components">
+      <UniqueIdentifier>{d0e9240b-1b81-4f35-8bbf-7159fc0a65e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Component system\Components">
+      <UniqueIdentifier>{3e8925e3-ca96-46db-b794-bf92fe0631bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Component system\Components\Input">
+      <UniqueIdentifier>{ae2d16f6-6e7f-413a-b771-1cd2bba86f6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Component system\Components\Rendering">
+      <UniqueIdentifier>{33727b9b-9ef0-4756-8073-bc5ffa6e18cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Component system\Components\Input">
+      <UniqueIdentifier>{ef1601e4-2e78-4c16-8a76-77b53675783c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Component system\Components\Rendering">
+      <UniqueIdentifier>{96fccaf7-7b26-4a61-afe3-88145eb6eb2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Gameplay\Player">
+      <UniqueIdentifier>{fd9b92ca-53f9-4beb-8173-b8fc9b591ec0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Gameplay\Player\Commands">
+      <UniqueIdentifier>{ec2abbc0-2be5-4ecd-9209-3b44b87d1bfb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Gameplay\Player">
+      <UniqueIdentifier>{2407642f-c3f1-4a72-891a-61baf0858dd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Gameplay\Player\Commands">
+      <UniqueIdentifier>{3a5abc74-20b0-4df7-aabb-6bb7591bb38f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\System\Textures">
+      <UniqueIdentifier>{0d4633ef-13bf-42b8-b42e-d801d230a9f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\System\Textures">
+      <UniqueIdentifier>{6aed01e1-233c-41b6-9d53-c2b81c7eca16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Component system\Components\Physics">
+      <UniqueIdentifier>{86ad181e-0ca1-4428-9d0c-cc7199c44bad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Component system\Components\Physics">
+      <UniqueIdentifier>{e03f1f95-f2af-43fb-91fd-4eef58d6ee48}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Header Files\Engine\Component system\Container</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>Header Files\Engine\Component system</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine.h">
+      <Filter>Header Files\Engine\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Enums.h">
+      <Filter>Header Files\Engine\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Command.h">
+      <Filter>Header Files\Engine\System\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveCommand.h">
+      <Filter>Header Files\Engine\System\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="System.h">
+      <Filter>Header Files\Engine\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Viewport.h">
+      <Filter>Source Files\Engine\System</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleReader.h">
+      <Filter>Header Files\Engine\System\Parsing</Filter>
+    </ClInclude>
+    <ClInclude Include="Debug.h">
+      <Filter>Header Files\Engine\System\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawManager.h">
+      <Filter>Header Files\Engine\Draw Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Profiler.h">
+      <Filter>Header Files\Engine\System\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="PerformanceGraph.h">
+      <Filter>Header Files\Engine\System\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Header Files\Engine\System\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderingComponent.h">
+      <Filter>Header Files\Engine\Component system\Components\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="GamepadComponent.h">
+      <Filter>Header Files\Engine\Component system\Components\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureManager.h">
+      <Filter>Header Files\Engine\System\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteRenderer.h">
+      <Filter>Header Files\Engine\Component system\Components\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsComponent2D.h">
+      <Filter>Header Files\Engine\Component system\Components\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="MovementCommand.h">
+      <Filter>Header Files\Gameplay\Player\Commands</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Source Files\Engine\Component system\Container</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine.cpp">
+      <Filter>Source Files\Engine\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files\Engine\Entry point</Filter>
+    </ClCompile>
+    <ClCompile Include="Component.cpp">
+      <Filter>Source Files\Engine\Component system</Filter>
+    </ClCompile>
+    <ClCompile Include="Command.cpp">
+      <Filter>Source Files\Engine\System\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveCommand.cpp">
+      <Filter>Source Files\Engine\System\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="System.cpp">
+      <Filter>Source Files\Engine\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Viewport.cpp">
+      <Filter>Source Files\Engine\System</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleReader.cpp">
+      <Filter>Source Files\Engine\System\Parsing</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug.cpp">
+      <Filter>Source Files\Engine\System\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawManager.cpp">
+      <Filter>Source Files\Engine\Draw Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Profiler.cpp">
+      <Filter>Source Files\Engine\System\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="PerformanceGraph.cpp">
+      <Filter>Source Files\Engine\System\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>Source Files\Engine\System\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderingComponent.cpp">
+      <Filter>Source Files\Engine\Component system\Components\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="GamepadComponent.cpp">
+      <Filter>Source Files\Engine\Component system\Components\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureManager.cpp">
+      <Filter>Source Files\Engine\System\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteRenderer.cpp">
+      <Filter>Source Files\Engine\Component system\Components\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsComponent2D.cpp">
+      <Filter>Source Files\Engine\Component system\Components\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="MovementCommand.cpp">
+      <Filter>Source Files\Gameplay\Player\Commands</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="GameObject.tpp">
+      <Filter>Header Files\Engine\Component system\Container</Filter>
+    </None>
+  </ItemGroup>
+</Project>

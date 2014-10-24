@@ -1,0 +1,19 @@
+# This is a comment and these + empty lines will be deleted. Everything after '#' sign is discarded
+# Names are NOT allowed to have spaces
+# [ <- start of body, ] <- end of body
+# var = variable declaration, var hp : 10; creates a integer with the name hp with a value of 10
+# REMEMBER TO END THE LINE WITH THE ';' sign
+#
+# You can share properties between different objects, specified with the '*' sign
+
+object_name 
+[
+var hp : 10;
+var attack : 2;
+var attackstyle : "melee";
+]
+
+Similar_object.object_name 
+[
+*var attackstyle : "ranged";
+]

@@ -1,0 +1,47 @@
+//Enums.h
+
+#pragma once
+
+enum EComponentType
+{
+	RENDERINGCOMPONENT,
+	SPRITERENDERINGCOMPONENT,
+	GAMEPADCOMPONENT,
+	PHYSICSCOMPONENT2D,
+	COMPONENTTYPESIZE
+};
+
+enum MouseButton
+{
+	MB_LEFT,
+	MB_RIGHT,
+	MOUSEBUTTONSIZE
+};
+
+enum GamepadButton
+{
+	A,
+	B,
+	Y,
+	X,
+	LEFTSHOULDER,
+	RIGHTSHOULDER,
+	BACK,
+	START,
+	LEFTSTICK,
+	RIGHTSTICK,
+	GAMEPADBUTTONSIZE
+};
+
+enum InputSystem
+{
+	KEYBOARD,
+	MOUSE,
+	GAMEPAD,
+	INPUTSYSTEMSIZE
+};
+
+class Enums
+{
+
+};

@@ -1,0 +1,32 @@
+﻿Build started 2014-10-22 15:28:08.
+     1>Project "C:\Users\Andree\Documents\GitHub\Prototypes\Codename beta\Codename beta.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\Dependencies\SFML\include /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"../build/Codename beta/Debug\Codename beta_d.pch" /Fo"../build/Codename beta/Debug\\" /Fd"../build/Codename beta/Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt PhysicsComponent2D.cpp
+         PhysicsComponent2D.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../bin/Codename beta_d.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\Dependencies\SFML\lib "sfml-system-d.lib" "sfml-window-d.lib" "sfml-graphics-d.lib" "sfml-audio-d.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"../bin/Codename beta_d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"../bin/Codename beta_d.lib" /MACHINE:X86 "../build/Codename beta/Debug\Command.obj"
+         "../build/Codename beta/Debug\Component.obj"
+         "../build/Codename beta/Debug\Debug.obj"
+         "../build/Codename beta/Debug\DrawManager.obj"
+         "../build/Codename beta/Debug\Engine.obj"
+         "../build/Codename beta/Debug\GameObject.obj"
+         "../build/Codename beta/Debug\GamepadComponent.obj"
+         "../build/Codename beta/Debug\Input.obj"
+         "../build/Codename beta/Debug\Main.obj"
+         "../build/Codename beta/Debug\MoveCommand.obj"
+         "../build/Codename beta/Debug\PerformanceGraph.obj"
+         "../build/Codename beta/Debug\PhysicsComponent2D.obj"
+         "../build/Codename beta/Debug\Profiler.obj"
+         "../build/Codename beta/Debug\RenderingComponent.obj"
+         "../build/Codename beta/Debug\SimpleReader.obj"
+         "../build/Codename beta/Debug\SpriteRenderer.obj"
+         "../build/Codename beta/Debug\System.obj"
+         "../build/Codename beta/Debug\TextureManager.obj"
+         "../build/Codename beta/Debug\MovementCommand.obj"
+         "../build/Codename beta/Debug\Viewport.obj"
+         Codename beta.vcxproj -> C:\Users\Andree\Documents\GitHub\Prototypes\Codename beta\../bin/Codename beta_d.exe
+     1>Done Building Project "C:\Users\Andree\Documents\GitHub\Prototypes\Codename beta\Codename beta.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.55
